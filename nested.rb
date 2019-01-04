@@ -58,7 +58,9 @@ def dennis_ritchies_language
         }
      }
 
+# set variable equal to result of calling programmer_hash[:dennis_ritchie][:languages], which is an array...
 	dennis_lang_string = programmer_hash[:dennis_ritchie][:languages]
+# access first item in array (which is a string) by using the index
 	dennis_lang_string[0]
 end
 
