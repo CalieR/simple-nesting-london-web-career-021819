@@ -138,6 +138,7 @@ def adding_to_dennis
      }
 
 	programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+	# Just adding an element onto the end of an array
 
 	programmer_hash
 
